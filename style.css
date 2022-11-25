@@ -4,7 +4,7 @@ body {
 
 .flexible {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .more {
@@ -15,7 +15,10 @@ body {
 
 }
 
-
+.social-box h1 {
+    font-size: 40px;
+    text-align: center;
+}
 
 
 
@@ -40,7 +43,7 @@ body {
 }
 
 .dif-color {
-    color: rgba(255, 99, 71, 0.843);
+    color: rgba(71, 255, 230, 0.843);
 }
 
 .discription {
@@ -64,7 +67,7 @@ body {
 
 .link {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(0, 164, 240), rgb(127, 205, 203));
     color: white;
     padding-left: 5%;
     padding-right: 5%;
@@ -76,7 +79,8 @@ body {
 }
 
 .third-box {
-    background-image: url(shapes/7.png);
+    background-image: url(shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
     margin: 0px;
 }
 
@@ -109,7 +113,7 @@ body {
     padding: 20px;
 
     border-radius: 5%;
-    box-shadow: 0 0 40px black;
+    box-shadow: 0 0 20px black;
     margin: 20px;
 }
 
@@ -130,4 +134,36 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-bottom: 10%;
+}
+
+.Fifth-box img {
+    width: 30%;
+    padding-left: 35%;
+
+}
+
+.Fifth-box {
+    padding-right: 15%;
+}
+
+footer {
+    background-color: rgb(16, 11, 29);
+    text-align: center;
+    padding: 10%;
+
+}
+
+footer h1 {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+footer h4 {
+    font-size: 15px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+footer a {
+    text-decoration: none;
 }
